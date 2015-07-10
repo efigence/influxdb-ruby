@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jgrzybowski@efigence.com"]
   spec.description   = %q{This is a fork of official Ruby library for InfluxDB meant for v0.9.x support.}
   spec.summary       = %q{Ruby library for InfluxDB.}
-  spec.homepage      = "http://influxdb.org"
+  spec.homepage      = "https://github.com/efigence/influxdb-ruby/tree/support_v0.9.x"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
