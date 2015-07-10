@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'influxdb/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "influxdb"
+  spec.name          = "efigence-influxdb"
   spec.version       = InfluxDB::VERSION
-  spec.authors       = ["Todd Persen"]
-  spec.email         = ["influxdb@googlegroups.com"]
-  spec.description   = %q{This is the official Ruby library for InfluxDB.}
+  spec.authors       = ["Jacek Grzybowski", "Todd Persen"]
+  spec.email         = ["jgrzybowski@efigence.com"]
+  spec.description   = %q{This is a fork of official Ruby library for InfluxDB meant for v0.9.x support.}
   spec.summary       = %q{Ruby library for InfluxDB.}
   spec.homepage      = "http://influxdb.org"
   spec.license       = "MIT"
